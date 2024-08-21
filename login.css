@@ -1,0 +1,268 @@
+@import url(https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display);
+@import url(https://fonts.googleapis.com/css?family=Rancho);
+@import url(https://fonts.google.com/css?family=Oswald);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+  background-color: black;
+}
+.container{
+  display:flex;
+  align-items: center;
+  height:500px;
+  width:100%;
+  background-color:#153243;  
+  border-radius: 0.5cm;
+  margin-top: 30px;
+  
+}
+.container>video{
+  margin-left: 20px;
+  
+}
+h1{
+  color: white;
+  font-family:'Sedgwick Ave Display';
+  margin-left: 10px;
+}
+.header{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 0.01fr 0.01fr ;
+}
+.text{
+  color: white;
+  text-align:center;
+  font-size:1cm;
+  font-family: 'Rancho';
+  
+}
+.start{
+    display: inline-block;
+    background-color: rgba(255,119,0,1);
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.5cm;
+    border-radius: 50px;
+    border-color: black;
+}
+.start:hover{
+  background-color:rgb(255,12,82) ;
+  transition:0.1s;
+
+}
+a:hover{
+  color:grey;
+}
+
+.header>.logo>img{
+  margin-left: 20px;
+}
+.topnav-right{
+  color: white;
+  font-size: 0.6cm;
+  float:right;
+  margin-top: 30px;
+  margin-right: 50px;
+  word-spacing: 20px;
+
+}
+
+
+.container2{
+  background-color: black;
+  height:800px;
+  margin-top:40px; 
+  text-align: center;
+}
+.container2>topic{
+  font-size:xx-large;
+  color: white;
+  font-family:'Rancho';
+  
+  
+}
+.container2>.row>.col{
+  position:relative;
+  margin-left: 50px;
+  margin-top: 30px;
+  float:left;
+  text-align: center;
+}
+.container2>.row>div.col>.image{
+  border-radius:1cm;
+  padding: 15px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+.container2>.row>.col>.subject{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 80px;
+    font-size: large;
+}
+
+div.col:hover img{
+  opacity:50%;
+  filter:blur(3px);
+}
+div.col:hover input{
+  display:block;
+  border-radius: 0.5cm;
+  background-color:#92b2c7;
+  width:150px;
+  height:40px;
+}
+
+div.col input {
+  position: absolute;
+  display: none;
+}
+div.col input.play {
+  top: 50%;
+  left: 25%;
+}
+.container>.box{
+    background-color: black;
+    margin-left: 70px;
+    border-radius: 0.5cm;
+    height: 350px;
+    
+   
+}
+.container>.box>.container1{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 42px;
+    background: rgba(255,255,255,0.1);
+}
+i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: .3s;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    background-color:wheat;
+    transition:0.2s;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+.left{
+    display: flex;
+}
+label a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a{
+  color: white;
+}
+a:hover{
+  color: blue;
+}
+.login{
+  margin-left: 50px;
+
+}
+.container3{
+  width:400px;
+  align-items: center;
+  margin-left: 500px;
+  margin-top: 100px;
+  background-color:#153243;
+  border-radius: 0.5cm;
+  height: 300px;
+}
+.Contact{
+  background-color: #92b2c7;
+  height: 300px;
+  width: 600px;
+  margin-left: 400px;
+  border-radius: 1cm;
+  
+}
+
+.Contact-logo>img{
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.Contact{
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 0.01fr 0.01fr 0.01fr;
+}
+text{
+color: black;
+text-align:center;
+font-size:1cm;
+font-family: 'Rancho';
+margin-left: 50px;
+}
+.infor{
+  margin-left: 170px;
+}
+.about{
+  margin-left: 50px;
+  color: white;
+  font-size:larger;
+  text-align:start;
+
+}
